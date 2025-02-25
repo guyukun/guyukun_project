@@ -1,0 +1,4 @@
+DPI_STUB_OBJS += ./../SIMV/ahbl_mst_single_read32_945854581sim.daidir/vc_hdrs.o
+./../SIMV/ahbl_mst_single_read32_945854581sim.daidir/vc_hdrs.o: ./../SIMV/ahbl_mst_single_read32_945854581sim.daidir/vc_hdrs.c
+	@$(CC) -I/home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/include  -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC    -I/home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/include  -fPIC -c -o ./../SIMV/ahbl_mst_single_read32_945854581sim.daidir/vc_hdrs.o ./../SIMV/ahbl_mst_single_read32_945854581sim.daidir/vc_hdrs.c
+	@strip -g ./../SIMV/ahbl_mst_single_read32_945854581sim.daidir/vc_hdrs.o

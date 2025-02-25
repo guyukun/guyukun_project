@@ -1,0 +1,179 @@
+global coverage_group 0 ahb2apb_pkg::func_cov::cg __coverage_func_cov.cg unused_func_cov_cg_loop_label ahb2apb_pkg 0 1 0 0 0  ( 0 
+)
+ 1 2
+ 75 /home/guyukun/Desktop/guyukun/ahp-apb/ahb2apb_cky/sim/../dv/env/func_cov.sv
+ 76 /home/guyukun/Desktop/guyukun/ahp-apb/ahb2apb_cky/sim/../dv/tb/ahb2apb_tb.sv
+ 3 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_e
+0
+0
+0
+64
+0
+ 0
+
+4
+0
+1
+0
+ 5 haddr 5 0 0 0 0 36 func_cov::ahb2apb_pkg_func_cov_cg_fn 36 func_cov::ahb2apb_pkg_func_cov_cg_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 16 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 9 1 1 0 0 1 1 2 a1 5 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_0 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 2 a2 6 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 2 a3 7 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_2 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 2 a4 8 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_3 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 2 a5 9 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_4 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 2 a6 10 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_5 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 2 a7 11 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_6 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 2 a8 12 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_7 0 0 0 0 0 0 0
+ 1 1 1 0 1 1 2 a9 13 0 0 1 0 0 0 0 0 0 0 0 0 0 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_8 0 -1 0 0 -1 0 0 1 1 1 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_9 0 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_a 0 0 0 0 0
+
+ 6 hwrite 15 0 0 0 0 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_b 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_b 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 6 hburst 16 0 0 0 0 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_c 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_c 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 3 1 22 ahbl_mst_pkg::hburst_t 0 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 5 hsize 17 0 0 0 0 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_d 38 func_cov::ahb2apb_pkg_func_cov_cg_fn_d 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 3 1 21 ahbl_mst_pkg::hsize_t 0 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 5 cg_cc 0 19 0 0 0 0 4 0 1 2 3 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group
+global coverage_group 0 ahb2apb_tb::cg_clk_ratio __coverage_cg_clk_ratio unused_cg_clk_ratio_loop_label ahb2apb_tb 0 1 0 0 0  ( 0 
+)
+ 0 134 1 0 0 0 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 42 cg_clk_ratio::ahb2apb_tb_cg_clk_ratio_fn_1
+ 42 cg_clk_ratio::ahb2apb_tb_cg_clk_ratio_fn_0
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+0
+ 9 clk_ratio 138 1 0 0 0 40 cg_clk_ratio::ahb2apb_tb_cg_clk_ratio_fn 40 cg_clk_ratio::ahb2apb_tb_cg_clk_ratio_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 1 32 0 0 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group

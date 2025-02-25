@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE cov SYSTEM "ucdb_fsm.dtd">
+  <fsm count="0"  noconst="0"  >
+    <ucapi_version  major_ver="13"  minor_ver="1"  patch_str="O-2018.09-SP2"  />
+      <fsmdef file="139"  name="cmsdk_ahb_to_apb"  lib=""  parameterized="1"  >
+        <fsmshape >
+          <fsmfsm name="state_reg"  id="0"  width="3"  line="251"  chksum="347786467"  >
+            <state name="ST_APB_ENDOK"  value="parameterized"  id="0"  flag="L"  line="212"  />
+            <state name="ST_APB_ERR1"  value="parameterized"  id="1"  flag="L"  line="207"  />
+            <state name="ST_APB_ERR2"  value="parameterized"  id="2"  flag="L"  line="231"  />
+            <state name="ST_APB_TRNF"  value="parameterized"  id="3"  flag="L"  line="180"  />
+            <state name="ST_APB_TRNF2"  value="parameterized"  id="4"  flag="L"  line="198"  />
+            <state name="ST_APB_WAIT"  value="parameterized"  id="5"  flag="L"  line="182"  />
+            <state name="ST_IDLE"  value="parameterized"  id="6"  flag="L"  line="184"  />
+            <state name="&apos;h0"  value="0"  id="7"  flag="L"  line="251"  />
+            <state name="&apos;h3"  value="3"  id="8"  flag="L"  line="122"  />
+
+            <transition fromid="0"  toid="7"  flag="L"  line="251"  />
+            <transition fromid="0"  toid="3"  flag="L"  line="224"  />
+            <transition fromid="0"  toid="5"  flag="L"  line="226"  />
+            <transition fromid="0"  toid="6"  flag="L"  line="228"  />
+            
+            <transition fromid="1"  toid="7"  flag="L"  line="251"  />
+            <transition fromid="1"  toid="2"  flag="L"  line="231"  />
+            
+            <transition fromid="2"  toid="7"  flag="L"  line="251"  />
+            <transition fromid="2"  toid="3"  flag="L"  line="236"  />
+            <transition fromid="2"  toid="5"  flag="L"  line="238"  />
+            <transition fromid="2"  toid="6"  flag="L"  line="240"  />
+            
+            <transition fromid="3"  toid="7"  flag="L"  line="251"  />
+            <transition fromid="3"  toid="4"  flag="L"  line="198"  />
+            
+            <transition fromid="4"  toid="7"  flag="L"  line="251"  />
+            <transition fromid="4"  toid="0"  flag="L"  line="212"  />
+            <transition fromid="4"  toid="1"  flag="L"  line="207"  />
+            
+            <transition fromid="5"  toid="7"  flag="L"  line="251"  />
+            <transition fromid="5"  toid="3"  flag="L"  line="190"  />
+            
+            <transition fromid="6"  toid="7"  flag="L"  line="251"  />
+            <transition fromid="6"  toid="3"  flag="L"  line="180"  />
+            <transition fromid="6"  toid="5"  flag="L"  line="182"  />
+            
+            
+            <transition fromid="8"  toid="7"  flag="L"  line="251"  />
+            
+          </fsmfsm>
+        </fsmshape>
+        <fsminst name="ahb2apb_tb.dut"  />
+      </fsmdef>
+          <metric_sig chksum="65346B85311F2B356F944DB142EE5F5060E09C14"  />
+    </fsm>

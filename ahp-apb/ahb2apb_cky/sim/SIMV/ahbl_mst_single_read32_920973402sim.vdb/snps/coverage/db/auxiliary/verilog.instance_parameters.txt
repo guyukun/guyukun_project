@@ -1,0 +1,7 @@
+ahb2apb_tb.dut.ST_APB_ENDOK4
+ahb2apb_tb.dut.ST_APB_ERR15
+ahb2apb_tb.dut.ST_APB_ERR26
+ahb2apb_tb.dut.ST_APB_TRNF2
+ahb2apb_tb.dut.ST_APB_TRNF23
+ahb2apb_tb.dut.ST_APB_WAIT1
+ahb2apb_tb.dut.ST_IDLE0
