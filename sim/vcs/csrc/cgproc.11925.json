@@ -1,0 +1,371 @@
+{
+    "Modules": {
+        "...MASTER...": {
+            "nQuads": 0,
+            "start_perf": [
+                0.85804891586303711,
+                0.887382,
+                0.15034700000000001,
+                227676,
+                229100,
+                1745758116.5939939,
+                32248024209832
+            ],
+            "nMops": 0,
+            "child_modules": {
+                "std": 1,
+                "ahb_usb_tb": 1
+            },
+            "end_perf": [
+                0.8735659122467041,
+                0.90228200000000003,
+                0.150952,
+                228656,
+                229100,
+                32248055127168,
+                0,
+                0
+            ],
+            "nRouts": 5
+        },
+        "std": {
+            "nQuads": 218,
+            "start_perf": [
+                0.87362313270568848,
+                0.90233099999999999,
+                0.15096000000000001,
+                228656,
+                229100,
+                1745758116.6095681,
+                32248055210315
+            ],
+            "nMops": 528,
+            "child_modules": {},
+            "Compiled Times": 1,
+            "Compiled": "Yes",
+            "svclass": [
+                "$vcs_nba_dyn_obj",
+                576,
+                35,
+                2,
+                2,
+                0,
+                "sigprop$$",
+                576,
+                35,
+                2,
+                2,
+                0,
+                "process",
+                2380,
+                200,
+                8,
+                8,
+                0,
+                "event",
+                597,
+                34,
+                2,
+                2,
+                0,
+                "mailbox",
+                1769,
+                140,
+                9,
+                9,
+                0,
+                "semaphore",
+                1119,
+                84,
+                5,
+                5,
+                0
+            ],
+            "end_perf": [
+                0.89422202110290527,
+                0.92210400000000003,
+                0.151782,
+                229624,
+                229624,
+                32248096317752,
+                8589934594,
+                0
+            ],
+            "nRouts": 33
+        },
+        "ahb_usb_tb": {
+            "nQuads": 10988,
+            "start_perf": [
+                1.0795090198516846,
+                1.0995269999999999,
+                0.15964500000000001,
+                229624,
+                229624,
+                1745758116.815454,
+                32248465329314
+            ],
+            "significant_routs": [
+                [
+                    682,
+                    "R_VCSgd_B8UhR_2aa",
+                    11196444,
+                    8851,
+                    1215
+                ]
+            ],
+            "nMops": 27786,
+            "child_modules": {
+                "usb_host_model": 1,
+                "usbf_device_core": 1,
+                "usbf_sie_ep": 4
+            },
+            "Compiled Times": 1,
+            "Compiled": "Yes",
+            "end_perf": [
+                1.3190839290618896,
+                1.312327,
+                0.18570600000000001,
+                229624,
+                229624,
+                32248942600468,
+                77309411329,
+                0
+            ],
+            "nRouts": 1578
+        },
+        "usbf_sie_ep": {
+            "nQuads": 751,
+            "start_perf": [
+                1.0003180503845215,
+                1.027399,
+                0.152584,
+                229624,
+                229624,
+                1745758116.736263,
+                32248307578853
+            ],
+            "nMops": 1705,
+            "child_modules": {},
+            "Compiled Times": 1,
+            "Compiled": "Yes",
+            "end_perf": [
+                1.0195589065551758,
+                1.0443750000000001,
+                0.15484700000000001,
+                229624,
+                229624,
+                32248345975202,
+                34359738369,
+                0
+            ],
+            "nRouts": 109
+        },
+        "usbf_device_core": {
+            "nQuads": 4881,
+            "start_perf": [
+                0.89430999755859375,
+                0.92218299999999997,
+                0.15179500000000001,
+                229624,
+                229624,
+                1745758116.630255,
+                32248096426761
+            ],
+            "nMops": 11454,
+            "child_modules": {
+                "usbf_crc16": 2
+            },
+            "Compiled Times": 1,
+            "Compiled": "Yes",
+            "end_perf": [
+                1.0002639293670654,
+                1.0273509999999999,
+                0.15257599999999999,
+                229624,
+                229624,
+                32248307517645,
+                25769803777,
+                0
+            ],
+            "nRouts": 563
+        },
+        "usbf_crc16": {
+            "nQuads": 544,
+            "start_perf": [
+                1.0196208953857422,
+                1.04443,
+                0.15485599999999999,
+                229624,
+                229624,
+                1745758116.7555659,
+                32248346032203
+            ],
+            "nMops": 2346,
+            "child_modules": {},
+            "Compiled Times": 1,
+            "Compiled": "Yes",
+            "end_perf": [
+                1.0418949127197266,
+                1.066703,
+                0.15485599999999999,
+                229624,
+                229624,
+                32248390446158,
+                47244640257,
+                0
+            ],
+            "nRouts": 47
+        },
+        "usb_host_model": {
+            "nQuads": 518,
+            "start_perf": [
+                1.0419430732727051,
+                1.0667519999999999,
+                0.15485599999999999,
+                229624,
+                229624,
+                1745758116.7778881,
+                32248390499547
+            ],
+            "nMops": 1118,
+            "child_modules": {},
+            "Compiled Times": 1,
+            "Compiled": "Yes",
+            "end_perf": [
+                1.0794429779052734,
+                1.0994679999999999,
+                0.159636,
+                229624,
+                229624,
+                32248465268023,
+                73014444033,
+                0
+            ],
+            "nRouts": 58
+        }
+    },
+    "CompUnits": {
+        "RQWF7_d": {
+            "mod": "usb_host_model",
+            "out": "RQWF7_d.o",
+            "bytes": 30914,
+            "text": 12234,
+            "mode": 4,
+            "archive": "archive.0/_11925_archive_1.a",
+            "checksum": 0
+        },
+        "nWDJK_d": {
+            "mod": "usbf_sie_ep",
+            "out": "nWDJK_d.o",
+            "bytes": 28598,
+            "text": 14027,
+            "mode": 4,
+            "archive": "archive.0/_11925_archive_1.a",
+            "checksum": 0
+        },
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 7832,
+            "text": 434,
+            "mode": 4,
+            "checksum": 0
+        },
+        "reYIK_d": {
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "bytes": 43000,
+            "text": 7325,
+            "cls": 7017,
+            "mode": 4,
+            "archive": "archive.0/_11925_archive_1.a",
+            "checksum": 0
+        },
+        "v1Rb0_d": {
+            "mod": "usbf_device_core",
+            "out": "v1Rb0_d.o",
+            "bytes": 151092,
+            "text": 97523,
+            "mode": 4,
+            "archive": "archive.0/_11925_archive_1.a",
+            "checksum": 0
+        },
+        "DFKAa_d": {
+            "mod": "usbf_crc16",
+            "out": "DFKAa_d.o",
+            "bytes": 28150,
+            "text": 16335,
+            "mode": 4,
+            "archive": "archive.0/_11925_archive_1.a",
+            "checksum": 0
+        },
+        "B8UhR_d": {
+            "mod": "ahb_usb_tb",
+            "out": "B8UhR_d.o",
+            "bytes": 384360,
+            "text": 232996,
+            "mode": 4,
+            "archive": "archive.0/_11925_archive_1.a",
+            "checksum": 0
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_11925_archive_1.a",
+            "objects": [
+                [
+                    "reYIK_d.o",
+                    43000
+                ],
+                [
+                    "v1Rb0_d.o",
+                    151092
+                ],
+                [
+                    "nWDJK_d.o",
+                    28598
+                ],
+                [
+                    "DFKAa_d.o",
+                    28150
+                ],
+                [
+                    "RQWF7_d.o",
+                    30914
+                ],
+                [
+                    "B8UhR_d.o",
+                    384360
+                ],
+                [
+                    "amcQwB.o",
+                    133814
+                ]
+            ],
+            "size": 799928
+        }
+    ],
+    "reusePaths": {},
+    "stat": {
+        "cpu_cycles_end": 32248962316261,
+        "ru_self_end": {
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.191166,
+            "ru_utime_sec": 1.3168009999999999,
+            "ru_maxrss_kb": 128540,
+            "ru_minflt": 12977,
+            "ru_nvcsw": 44,
+            "ru_nivcsw": 33
+        },
+        "ru_childs_end": {
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.029277999999999998,
+            "ru_utime_sec": 0.079574000000000006,
+            "ru_maxrss_kb": 114972,
+            "ru_minflt": 4117,
+            "ru_nvcsw": 26,
+            "ru_nivcsw": 4
+        },
+        "peak_mem_kb": 229624
+    }
+}

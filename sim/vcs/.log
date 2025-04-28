@@ -1,0 +1,69 @@
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '6.11.0-24-generic' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Sun Apr 27 15:15:03 2025
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_top.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_ahb_slv.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v'
+Parsing included file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_defs.v'.
+Back to file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v'.
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v'
+Parsing included file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_defs.v'.
+Back to file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v'.
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_fifo.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_ep.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v'
+Parsing included file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_defs.v'.
+Back to file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v'.
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v'
+Parsing included file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_defs.v'.
+Back to file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v'.
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_crc16.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_fs_phy.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_fs_utmi_phy.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_transceiver.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/tb/vmodel/ahb_mst.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/tb/vmodel/trans_buffer.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/tb/vmodel/usb_host_model.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v'
+
+Warning-[IPDW] Identifier previously declared
+/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v, 102
+  Second declaration for identifier 'DPOUT' ignored
+  Identifier 'DPOUT' previously declared as wire. 
+  [/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v, 101]
+
+
+Warning-[IPDW] Identifier previously declared
+/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v, 104
+  Second declaration for identifier 'usb_dp' ignored
+  Identifier 'usb_dp' previously declared as wire. 
+  [/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v, 36]
+
+
+Warning-[IPDW] Identifier previously declared
+/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v, 105
+  Second declaration for identifier 'usb_dn' ignored
+  Identifier 'usb_dn' previously declared as wire. 
+  [/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v, 37]
+
+
+Error-[UC] Unexpected character
+  The character '.' is illegal in the context. 
+  "/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v", 182 (expanding 
+  macro)
+  Source info: `include `TEST_CASE
+
+3 warnings
+1 error
+CPU time: .140 seconds to compile

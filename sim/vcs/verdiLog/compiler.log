@@ -1,0 +1,2695 @@
+*design* DebussyLib (btIdent Verdi_O-2018.09-SP2)
+Command arguments:
+    +define+verilog
+    -f /home/guyukun/Desktop/guyukun/USB/sim/filelist_top_sim.v
+        /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_top.v
+        /home/guyukun/Desktop/guyukun/USB/rtl/usb_ahb_slv.v
+        /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v
+        /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v
+        /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_fifo.v
+        /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_ep.v
+        /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v
+        /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v
+        /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_crc16.v
+        /home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_fs_phy.v
+        /home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_fs_utmi_phy.v
+        /home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_transceiver.v
+        /home/guyukun/Desktop/guyukun/USB/tb/vmodel/ahb_mst.v
+        /home/guyukun/Desktop/guyukun/USB/tb/vmodel/trans_buffer.v
+        /home/guyukun/Desktop/guyukun/USB/tb/vmodel/usb_host_model.v
+        /home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v
+
+
+*Error* `include file "usbf_device_defs.v" cannot be read
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 11: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 89: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 101: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 113: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 125: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 137: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 149: 
+
+*Error* macro `USB_FUNC_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 78: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 78: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 79: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 80: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 81: 
+
+*Error* macro `USB_FUNC_CTRL_HS_CHIRP_EN_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 88: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 89: 
+
+*Error* macro `USB_FUNC_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 89: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 90: 
+
+*Error* macro `USB_FUNC_CTRL_HS_CHIRP_EN_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 90: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_DMPULLDOWN_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 100: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 101: 
+
+*Error* macro `USB_FUNC_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 101: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 102: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_DMPULLDOWN_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 102: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_DPPULLDOWN_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 112: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 113: 
+
+*Error* macro `USB_FUNC_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 113: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 114: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_DPPULLDOWN_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 114: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_TERMSELECT_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 124: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 125: 
+
+*Error* macro `USB_FUNC_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 125: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 126: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_TERMSELECT_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 126: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_XCVRSELECT_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 136: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 137: 
+
+*Error* macro `USB_FUNC_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 137: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 138: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_XCVRSELECT_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 138: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_OPMODE_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 148: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 149: 
+
+*Error* macro `USB_FUNC_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 149: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 150: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_OPMODE_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 150: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 161: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 211: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 236: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 248: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 276: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 301: 
+
+*Error* macro `USB_FUNC_CTRL_INT_EN_SOF_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 160: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 161: 
+
+*Error* macro `USB_FUNC_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 161: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 162: 
+
+*Error* macro `USB_FUNC_CTRL_INT_EN_SOF_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 162: 
+
+*Error* macro `USB_FUNC_STAT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 175: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 175: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 176: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 177: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 178: 
+
+*Error* macro `USB_FUNC_STAT_RST_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 181: 
+
+*Error* macro `USB_FUNC_STAT_LINESTATE_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 185: 
+
+*Error* macro `USB_FUNC_STAT_FRAME_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 189: 
+
+*Error* macro `USB_FUNC_ADDR not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 200: 
+
+*Error* macro `USB_FUNC_ADDR_DEV_ADDR_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 210: 
+
+*Error* macro `USB_FUNC_ADDR not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 211: 
+
+*Error* macro `USB_FUNC_ADDR_DEV_ADDR_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 212: 
+
+*Error* macro `USB_EP0_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 225: 
+
+*Error* macro `USB_EP0_CFG_INT_RX_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 235: 
+
+*Error* macro `USB_EP0_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 236: 
+
+*Error* macro `USB_EP0_CFG_INT_RX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 237: 
+
+*Error* macro `USB_EP0_CFG_INT_TX_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 247: 
+
+*Error* macro `USB_EP0_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 248: 
+
+*Error* macro `USB_EP0_CFG_INT_TX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 249: 
+
+*Error* macro `USB_EP0_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 262: 
+
+*Error* macro `USB_EP0_CFG_STALL_EP_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 263: 
+
+*Error* macro `USB_EP0_CFG_ISO_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 275: 
+
+*Error* macro `USB_EP0_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 276: 
+
+*Error* macro `USB_EP0_CFG_ISO_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 277: 
+
+*Error* macro `USB_EP0_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 290: 
+
+*Error* macro `USB_EP0_TX_CTRL_TX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 300: 
+
+*Error* macro `USB_EP0_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 301: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 306: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 315: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 320: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 329: 
+
+*Error* macro `USB_EP0_TX_CTRL_TX_FLUSH_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 302: 
+
+*Error* macro `USB_EP0_TX_CTRL_TX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 304: 
+
+*Error* macro `USB_EP0_TX_CTRL_TX_START_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 314: 
+
+*Error* macro `USB_EP0_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 315: 
+
+*Error* macro `USB_EP0_TX_CTRL_TX_START_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 316: 
+
+*Error* macro `USB_EP0_TX_CTRL_TX_START_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 318: 
+
+*Error* macro `USB_EP0_TX_CTRL_TX_LEN_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 328: 
+
+*Error* macro `USB_EP0_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 329: 
+
+*Error* macro `USB_EP0_TX_CTRL_TX_LEN_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 330: 
+
+*Error* macro `USB_EP0_RX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 343: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 354: 
+
+*Error* macro `USB_EP0_RX_CTRL_RX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 353: 
+
+*Error* macro `USB_EP0_RX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 354: 
+
+*Error* macro `USB_EP0_RX_CTRL_RX_FLUSH_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 355: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 359: 
+
+*Error* macro `USB_EP0_RX_CTRL_RX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 357: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 368: 
+
+*Error* macro `USB_EP0_RX_CTRL_RX_ACCEPT_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 367: 
+
+*Error* macro `USB_EP0_RX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 368: 
+
+*Error* macro `USB_EP0_RX_CTRL_RX_ACCEPT_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 369: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 373: 
+
+*Error* macro `USB_EP0_RX_CTRL_RX_ACCEPT_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 371: 
+
+*Error* macro `USB_EP0_STS not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 384: 
+
+*Error* macro `USB_EP0_DATA not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 403: 
+
+*Error* macro `USB_EP0_DATA_DATA_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 409: 
+
+*Error* macro `USB_EP1_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 420: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 431: 
+
+*Error* macro `USB_EP1_CFG_INT_RX_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 430: 
+
+*Error* macro `USB_EP1_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 431: 
+
+*Error* macro `USB_EP1_CFG_INT_RX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 432: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 443: 
+
+*Error* macro `USB_EP1_CFG_INT_TX_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 442: 
+
+*Error* macro `USB_EP1_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 443: 
+
+*Error* macro `USB_EP1_CFG_INT_TX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 444: 
+
+*Error* macro `USB_EP1_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 457: 
+
+*Error* macro `USB_EP1_CFG_STALL_EP_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 458: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 471: 
+
+*Error* macro `USB_EP1_CFG_ISO_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 470: 
+
+*Error* macro `USB_EP1_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 471: 
+
+*Error* macro `USB_EP1_CFG_ISO_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 472: 
+
+*Error* macro `USB_EP1_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 485: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 181: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 185: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 189: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 200: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 201: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 202: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 203: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 211: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 212: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 225: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 226: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 227: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 228: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 236: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 237: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 248: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 249: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 262: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 263: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 264: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 265: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 276: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 277: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 290: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 291: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 292: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 293: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 301: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 302: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 303: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 304: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 315: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 316: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 317: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 318: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 329: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 330: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 343: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 344: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 345: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 346: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 354: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 355: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 356: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 357: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 368: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 369: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 370: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 371: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 384: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 385: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 386: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 387: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 403: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 404: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 405: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 406: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 496: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 501: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 510: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 515: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 524: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 549: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 554: 
+
+*Error* macro `USB_EP1_TX_CTRL_TX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 495: 
+
+*Error* macro `USB_EP1_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 496: 
+
+*Error* macro `USB_EP1_TX_CTRL_TX_FLUSH_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 497: 
+
+*Error* macro `USB_EP1_TX_CTRL_TX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 499: 
+
+*Error* macro `USB_EP1_TX_CTRL_TX_START_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 509: 
+
+*Error* macro `USB_EP1_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 510: 
+
+*Error* macro `USB_EP1_TX_CTRL_TX_START_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 511: 
+
+*Error* macro `USB_EP1_TX_CTRL_TX_START_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 513: 
+
+*Error* macro `USB_EP1_TX_CTRL_TX_LEN_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 523: 
+
+*Error* macro `USB_EP1_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 524: 
+
+*Error* macro `USB_EP1_TX_CTRL_TX_LEN_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 525: 
+
+*Error* macro `USB_EP1_RX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 538: 
+
+*Error* macro `USB_EP1_RX_CTRL_RX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 548: 
+
+*Error* macro `USB_EP1_RX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 549: 
+
+*Error* macro `USB_EP1_RX_CTRL_RX_FLUSH_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 550: 
+
+*Error* macro `USB_EP1_RX_CTRL_RX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 552: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 563: 
+
+*Error* macro `USB_EP1_RX_CTRL_RX_ACCEPT_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 562: 
+
+*Error* macro `USB_EP1_RX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 563: 
+
+*Error* macro `USB_EP1_RX_CTRL_RX_ACCEPT_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 564: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 568: 
+
+*Error* macro `USB_EP1_RX_CTRL_RX_ACCEPT_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 566: 
+
+*Error* macro `USB_EP1_STS not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 579: 
+
+*Error* macro `USB_EP1_DATA not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 598: 
+
+*Error* macro `USB_EP1_DATA_DATA_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 604: 
+
+*Error* macro `USB_EP2_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 615: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 626: 
+
+*Error* macro `USB_EP2_CFG_INT_RX_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 625: 
+
+*Error* macro `USB_EP2_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 626: 
+
+*Error* macro `USB_EP2_CFG_INT_RX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 627: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 638: 
+
+*Error* macro `USB_EP2_CFG_INT_TX_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 637: 
+
+*Error* macro `USB_EP2_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 638: 
+
+*Error* macro `USB_EP2_CFG_INT_TX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 639: 
+
+*Error* macro `USB_EP2_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 652: 
+
+*Error* macro `USB_EP2_CFG_STALL_EP_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 653: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 666: 
+
+*Error* macro `USB_EP2_CFG_ISO_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 665: 
+
+*Error* macro `USB_EP2_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 666: 
+
+*Error* macro `USB_EP2_CFG_ISO_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 667: 
+
+*Error* macro `USB_EP2_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 680: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 691: 
+
+*Error* macro `USB_EP2_TX_CTRL_TX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 690: 
+
+*Error* macro `USB_EP2_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 691: 
+
+*Error* macro `USB_EP2_TX_CTRL_TX_FLUSH_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 692: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 696: 
+
+*Error* macro `USB_EP2_TX_CTRL_TX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 694: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 705: 
+
+*Error* macro `USB_EP2_TX_CTRL_TX_START_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 704: 
+
+*Error* macro `USB_EP2_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 705: 
+
+*Error* macro `USB_EP2_TX_CTRL_TX_START_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 706: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 710: 
+
+*Error* macro `USB_EP2_TX_CTRL_TX_START_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 708: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 409: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 420: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 421: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 422: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 423: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 431: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 432: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 443: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 444: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 457: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 458: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 459: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 460: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 471: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 472: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 485: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 486: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 487: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 488: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 496: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 497: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 498: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 499: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 510: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 511: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 512: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 513: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 524: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 525: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 538: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 539: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 540: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 541: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 549: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 550: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 551: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 552: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 563: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 564: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 565: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 566: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 579: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 580: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 581: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 582: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 598: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 599: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 600: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 601: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 719: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 744: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 749: 
+
+*Error* macro `USB_EP2_TX_CTRL_TX_LEN_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 718: 
+
+*Error* macro `USB_EP2_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 719: 
+
+*Error* macro `USB_EP2_TX_CTRL_TX_LEN_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 720: 
+
+*Error* macro `USB_EP2_RX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 733: 
+
+*Error* macro `USB_EP2_RX_CTRL_RX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 743: 
+
+*Error* macro `USB_EP2_RX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 744: 
+
+*Error* macro `USB_EP2_RX_CTRL_RX_FLUSH_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 745: 
+
+*Error* macro `USB_EP2_RX_CTRL_RX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 747: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 758: 
+
+*Error* macro `USB_EP2_RX_CTRL_RX_ACCEPT_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 757: 
+
+*Error* macro `USB_EP2_RX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 758: 
+
+*Error* macro `USB_EP2_RX_CTRL_RX_ACCEPT_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 759: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 763: 
+
+*Error* macro `USB_EP2_RX_CTRL_RX_ACCEPT_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 761: 
+
+*Error* macro `USB_EP2_STS not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 774: 
+
+*Error* macro `USB_EP2_DATA not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 793: 
+
+*Error* macro `USB_EP2_DATA_DATA_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 799: 
+
+*Error* macro `USB_EP3_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 810: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 821: 
+
+*Error* macro `USB_EP3_CFG_INT_RX_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 820: 
+
+*Error* macro `USB_EP3_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 821: 
+
+*Error* macro `USB_EP3_CFG_INT_RX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 822: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 833: 
+
+*Error* macro `USB_EP3_CFG_INT_TX_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 832: 
+
+*Error* macro `USB_EP3_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 833: 
+
+*Error* macro `USB_EP3_CFG_INT_TX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 834: 
+
+*Error* macro `USB_EP3_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 847: 
+
+*Error* macro `USB_EP3_CFG_STALL_EP_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 848: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 861: 
+
+*Error* macro `USB_EP3_CFG_ISO_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 860: 
+
+*Error* macro `USB_EP3_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 861: 
+
+*Error* macro `USB_EP3_CFG_ISO_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 862: 
+
+*Error* macro `USB_EP3_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 875: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 886: 
+
+*Error* macro `USB_EP3_TX_CTRL_TX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 885: 
+
+*Error* macro `USB_EP3_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 886: 
+
+*Error* macro `USB_EP3_TX_CTRL_TX_FLUSH_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 887: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 891: 
+
+*Error* macro `USB_EP3_TX_CTRL_TX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 889: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 900: 
+
+*Error* macro `USB_EP3_TX_CTRL_TX_START_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 899: 
+
+*Error* macro `USB_EP3_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 900: 
+
+*Error* macro `USB_EP3_TX_CTRL_TX_START_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 901: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 905: 
+
+*Error* macro `USB_EP3_TX_CTRL_TX_START_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 903: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 604: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 615: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 616: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 617: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 618: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 626: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 627: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 638: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 639: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 652: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 653: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 654: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 655: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 666: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 667: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 680: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 681: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 682: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 683: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 691: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 692: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 693: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 694: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 705: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 706: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 707: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 708: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 719: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 720: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 733: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 734: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 735: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 736: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 744: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 745: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 746: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 747: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 758: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 759: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 760: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 761: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 774: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 775: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 776: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 777: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 793: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 794: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 795: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 796: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 914: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 939: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 944: 
+
+*Error* macro `USB_EP3_TX_CTRL_TX_LEN_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 913: 
+
+*Error* macro `USB_EP3_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 914: 
+
+*Error* macro `USB_EP3_TX_CTRL_TX_LEN_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 915: 
+
+*Error* macro `USB_EP3_RX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 928: 
+
+*Error* macro `USB_EP3_RX_CTRL_RX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 938: 
+
+*Error* macro `USB_EP3_RX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 939: 
+
+*Error* macro `USB_EP3_RX_CTRL_RX_FLUSH_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 940: 
+
+*Error* macro `USB_EP3_RX_CTRL_RX_FLUSH_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 942: 
+
+*Error* pre-processing syntax error of token 'else'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 953: 
+
+*Error* macro `USB_EP3_RX_CTRL_RX_ACCEPT_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 952: 
+
+*Error* macro `USB_EP3_RX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 953: 
+
+*Error* macro `USB_EP3_RX_CTRL_RX_ACCEPT_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 954: 
+
+*Error* pre-processing syntax error of token 'wire'
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 958: 
+
+*Error* macro `USB_EP3_RX_CTRL_RX_ACCEPT_DEFAULT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 956: 
+
+*Error* macro `USB_EP3_STS not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 969: 
+
+*Error* macro `USB_EP3_DATA not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 988: 
+
+*Error* macro `USB_EP3_DATA_DATA_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 994: 
+
+*Error* macro `USB_FUNC_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1041: 
+
+*Error* macro `USB_FUNC_CTRL_HS_CHIRP_EN_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1043: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_DMPULLDOWN_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1044: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_DPPULLDOWN_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1045: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_TERMSELECT_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1046: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_XCVRSELECT_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1047: 
+
+*Error* macro `USB_FUNC_CTRL_PHY_OPMODE_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1048: 
+
+*Error* macro `USB_FUNC_CTRL_INT_EN_SOF_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1049: 
+
+*Error* macro `USB_FUNC_STAT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1051: 
+
+*Error* macro `USB_FUNC_STAT_RST_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1053: 
+
+*Error* macro `USB_FUNC_STAT_LINESTATE_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1054: 
+
+*Error* macro `USB_FUNC_STAT_FRAME_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1055: 
+
+*Error* macro `USB_FUNC_ADDR not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1057: 
+
+*Error* macro `USB_FUNC_ADDR_DEV_ADDR_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1059: 
+
+*Error* macro `USB_EP0_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1061: 
+
+*Error* macro `USB_EP0_CFG_INT_RX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1063: 
+
+*Error* macro `USB_EP0_CFG_INT_TX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1064: 
+
+*Error* macro `USB_EP0_CFG_ISO_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1065: 
+
+*Error* macro `USB_EP0_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1067: 
+
+*Error* macro `USB_EP0_TX_CTRL_TX_LEN_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1069: 
+
+*Error* macro `USB_EP0_STS not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1071: 
+
+*Error* macro `USB_EP0_STS_TX_ERR_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1073: 
+
+*Error* macro `USB_EP0_STS_TX_BUSY_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1074: 
+
+*Error* macro `USB_EP0_STS_RX_ERR_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1075: 
+
+*Error* macro `USB_EP0_STS_RX_SETUP_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1076: 
+
+*Error* macro `USB_EP0_STS_RX_READY_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1077: 
+
+*Error* macro `USB_EP0_STS_RX_COUNT_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1078: 
+
+*Error* macro `USB_EP0_DATA not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1080: 
+
+*Error* macro `USB_EP0_DATA_DATA_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1082: 
+
+*Error* macro `USB_EP1_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1084: 
+
+*Error* macro `USB_EP1_CFG_INT_RX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1086: 
+
+*Error* macro `USB_EP1_CFG_INT_TX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1087: 
+
+*Error* macro `USB_EP1_CFG_ISO_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1088: 
+
+*Error* macro `USB_EP1_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1090: 
+
+*Error* macro `USB_EP1_TX_CTRL_TX_LEN_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1092: 
+
+*Error* macro `USB_EP1_STS not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1094: 
+
+*Error* macro `USB_EP1_STS_TX_ERR_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1096: 
+
+*Error* macro `USB_EP1_STS_TX_BUSY_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1097: 
+
+*Error* macro `USB_EP1_STS_RX_ERR_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1098: 
+
+*Error* macro `USB_EP1_STS_RX_SETUP_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1099: 
+
+*Error* macro `USB_EP1_STS_RX_READY_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1100: 
+
+*Error* macro `USB_EP1_STS_RX_COUNT_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1101: 
+
+*Error* macro `USB_EP1_DATA not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1103: 
+
+*Error* macro `USB_EP1_DATA_DATA_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1105: 
+
+*Error* macro `USB_EP2_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1107: 
+
+*Error* macro `USB_EP2_CFG_INT_RX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1109: 
+
+*Error* macro `USB_EP2_CFG_INT_TX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1110: 
+
+*Error* macro `USB_EP2_CFG_ISO_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1111: 
+
+*Error* macro `USB_EP2_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1113: 
+
+*Error* macro `USB_EP2_TX_CTRL_TX_LEN_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1115: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 799: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 810: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 811: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 812: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 813: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 821: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 822: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 833: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 834: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 847: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 848: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 849: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 850: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 861: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 862: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 875: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 876: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 877: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 878: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 886: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 887: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 888: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 889: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 900: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 901: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 902: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 903: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 914: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 915: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 928: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 929: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 930: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 931: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 939: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 940: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 941: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 942: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 953: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 954: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 955: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 956: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 969: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 970: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 971: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 972: 
+
+*Error* Syntax error at )
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 988: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 989: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 990: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 991: 
+
+*Error* macro `USB_EP2_STS not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1117: 
+
+*Error* macro `USB_EP2_STS_TX_ERR_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1119: 
+
+*Error* macro `USB_EP2_STS_TX_BUSY_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1120: 
+
+*Error* macro `USB_EP2_STS_RX_ERR_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1121: 
+
+*Error* macro `USB_EP2_STS_RX_SETUP_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1122: 
+
+*Error* macro `USB_EP2_STS_RX_READY_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1123: 
+
+*Error* macro `USB_EP2_STS_RX_COUNT_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1124: 
+
+*Error* macro `USB_EP2_DATA not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1126: 
+
+*Error* macro `USB_EP2_DATA_DATA_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1128: 
+
+*Error* macro `USB_EP3_CFG not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1130: 
+
+*Error* macro `USB_EP3_CFG_INT_RX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1132: 
+
+*Error* macro `USB_EP3_CFG_INT_TX_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1133: 
+
+*Error* macro `USB_EP3_CFG_ISO_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1134: 
+
+*Error* macro `USB_EP3_TX_CTRL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1136: 
+
+*Error* macro `USB_EP3_TX_CTRL_TX_LEN_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1138: 
+
+*Error* macro `USB_EP3_STS not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1140: 
+
+*Error* macro `USB_EP3_STS_TX_ERR_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1142: 
+
+*Error* macro `USB_EP3_STS_TX_BUSY_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1143: 
+
+*Error* macro `USB_EP3_STS_RX_ERR_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1144: 
+
+*Error* macro `USB_EP3_STS_RX_SETUP_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1145: 
+
+*Error* macro `USB_EP3_STS_RX_READY_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1146: 
+
+*Error* macro `USB_EP3_STS_RX_COUNT_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1147: 
+
+*Error* macro `USB_EP3_DATA not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1149: 
+
+*Error* macro `USB_EP3_DATA_DATA_R not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1151: 
+
+*Error* macro `USB_EP0_DATA not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1161: 
+
+*Error* macro `USB_EP1_DATA not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1162: 
+
+*Error* macro `USB_EP2_DATA not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1163: 
+
+*Error* macro `USB_EP3_DATA not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1164: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 994: 
+
+*Error* Syntax error at begin
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1042: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1043: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1044: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1045: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1046: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1047: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1048: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1049: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1053: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1054: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1055: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1056: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1059: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1060: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1063: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1064: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1065: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1066: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1069: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1070: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1073: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1074: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1075: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1076: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1077: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1078: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1079: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1082: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1083: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1086: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1087: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1088: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1089: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1092: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1093: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1096: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1097: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1098: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1099: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1100: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1101: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1102: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1105: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1106: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1109: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1110: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1111: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1112: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1115: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1116: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1119: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1120: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1121: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1122: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1123: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1124: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1125: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1128: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1129: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1132: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1133: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1134: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1135: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1138: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1139: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1142: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1143: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1144: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1145: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1146: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1147: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1148: 
+
+*Error* Syntax error at [
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1151: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1152: 
+
+*Error* Syntax error at :
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1153: 
+
+*Error* Syntax error at data_r
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1154: 
+
+*Error* Syntax error at endcase
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1155: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1156: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1161: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1162: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1163: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 1164: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 78: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 78: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 175: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 175: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 200: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 200: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 225: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 225: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 262: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 262: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 290: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 290: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 343: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 343: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 384: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 384: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 403: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 403: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 420: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 420: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 457: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 457: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 485: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 485: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 538: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 538: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 579: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 579: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 598: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 598: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 615: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 615: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 652: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 652: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 680: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 680: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 733: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 733: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 774: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 774: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 793: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 793: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 810: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 810: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 847: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 847: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 875: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 875: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 928: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 928: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 969: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 969: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 988: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v", 988: 
+
+*Error* `include file "usbf_defs.v" cannot be read
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 96: 
+
+*Error* macro `PID_IN not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 393: 
+
+*Error* Syntax error at begin
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 394: 
+
+*Error* macro `PID_PING not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 408: 
+
+*Error* Syntax error at begin
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 409: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 415: 
+
+*Error* macro `PID_OUT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 415: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 430: 
+
+*Error* macro `PID_SETUP not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 430: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 434: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 436: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 437: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 438: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 439: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 440: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 441: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 442: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 447: 
+
+*Warning* symbol STATE_RX_DATA duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 447: 
+
+*Error* macro `PID_DATA0 not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 453: 
+
+*Error* macro `PID_DATA1 not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 454: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 455: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 457: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 458: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 459: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 463: 
+
+*Warning* symbol STATE_RX_DATA_IGNORE duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 463: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 467: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 468: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 472: 
+
+*Warning* symbol STATE_RX_DATA_READY duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 472: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 478: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 480: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 481: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 482: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 483: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 484: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 485: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 489: 
+
+*Warning* symbol STATE_TX_DATA duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 489: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 493: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 494: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 498: 
+
+*Warning* symbol STATE_TX_DATA_COMPLETE duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 498: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 500: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 501: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 505: 
+
+*Warning* symbol STATE_TX_HANDSHAKE duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 505: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 508: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 509: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 513: 
+
+*Warning* symbol STATE_TX_CHIRP duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 513: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 516: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 517: 
+
+*Error* Syntax error at :
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 519: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 520: 
+
+*Error* Syntax error at endcase
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 522: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 528: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 529: 
+
+*Error* macro `PID_IN not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 561: 
+
+*Error* Syntax error at begin
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 562: 
+
+*Error* macro `PID_STALL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 567: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 568: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 570: 
+
+*Error* macro `PID_DATA1 not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 574: 
+
+*Error* macro `PID_DATA0 not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 574: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 575: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 577: 
+
+*Error* macro `PID_NAK not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 580: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 581: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 586: 
+
+*Error* macro `PID_PING not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 586: 
+
+*Error* macro `PID_STALL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 592: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 593: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 595: 
+
+*Error* macro `PID_ACK not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 598: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 599: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 601: 
+
+*Error* macro `PID_NAK not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 604: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 605: 
+
+*Error* macro `PID_STALL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 628: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 629: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 631: 
+
+*Error* macro `PID_DATA0 not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 631: 
+
+*Error* Syntax error at (
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 632: 
+
+*Error* macro `PID_DATA1 not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 632: 
+
+*Error* macro `PID_ACK not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 636: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 637: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 639: 
+
+*Error* macro `PID_NAK not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 642: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 643: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 645: 
+
+*Error* macro `PID_ACK not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 648: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 649: 
+
+*Error* macro `PID_SETUP not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 699: 
+
+*Error* Syntax error at &&
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 699: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 700: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 701: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 702: 
+
+*Error* macro `PID_ACK not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 727: 
+
+*Error* Syntax error at ||
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 727: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 728: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 730: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 731: 
+
+*Error* macro `PID_ACK not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 738: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 739: 
+
+*Error* macro `PID_DATA0 not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 771: 
+
+*Error* macro `PID_DATA1 not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 772: 
+
+*Error* macro `PID_SETUP not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 791: 
+
+*Error* Syntax error at begin
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 792: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 798: 
+
+*Error* macro `PID_ACK not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 798: 
+
+*Error* Syntax error at :
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 803: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 804: 
+
+*Error* Syntax error at endcase
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 805: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 806: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 393: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 393: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 408: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 408: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 561: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 561: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 699: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 699: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 727: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 727: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 738: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 738: 
+
+*Error* missing condition in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 791: 
+
+*Error* missing then statement in if statement
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v", 791: 
+
+*Error* `include file "usbf_defs.v" cannot be read
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 45: 
+
+*Error* macro `PID_OUT not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 138: 
+
+*Error* macro `PID_IN not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 138: 
+
+*Error* macro `PID_SETUP not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 138: 
+
+*Error* macro `PID_PING not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 138: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 139: 
+
+*Error* macro `PID_SOF not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 141: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 142: 
+
+*Error* macro `PID_DATA0 not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 144: 
+
+*Error* macro `PID_DATA1 not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 144: 
+
+*Error* macro `PID_DATA2 not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 144: 
+
+*Error* macro `PID_MDATA not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 144: 
+
+*Error* Syntax error at begin
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 145: 
+
+*Error* macro `PID_ACK not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 149: 
+
+*Error* macro `PID_NAK not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 149: 
+
+*Error* macro `PID_STALL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 149: 
+
+*Error* macro `PID_NYET not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 149: 
+
+*Error* Syntax error at default
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 152: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 153: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 156: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 161: 
+
+*Warning* symbol STATE_RX_IGNORED duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 161: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 165: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 166: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 171: 
+
+*Warning* symbol STATE_RX_SOF2 duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 171: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 174: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 175: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 176: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 177: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 182: 
+
+*Warning* symbol STATE_RX_SOF3 duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 182: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 185: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 186: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 191: 
+
+*Warning* symbol STATE_RX_TOKEN2 duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 191: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 194: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 195: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 196: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 197: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 202: 
+
+*Warning* symbol STATE_RX_TOKEN3 duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 202: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 205: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 206: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 207: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 208: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 213: 
+
+*Warning* symbol STATE_RX_TOKEN_COMPLETE duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 213: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 215: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 216: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 221: 
+
+*Warning* symbol STATE_RX_DATA duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 221: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 225: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 226: 
+
+*Error* usage of IDENT: statement is supported only if the option '-sv' is specified
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 231: 
+
+*Warning* symbol STATE_RX_DATA_COMPLETE duplicated
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 231: 
+
+*Error* Syntax error at =
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 234: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 235: 
+
+*Error* Syntax error at :
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 237: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 238: 
+
+*Error* Syntax error at endcase
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 240: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 241: 
+
+*Error* macro `PID_ACK not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 263: 
+
+*Error* macro `PID_NAK not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 263: 
+
+*Error* macro `PID_STALL not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 263: 
+
+*Error* macro `PID_NYET not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 263: 
+
+*Error* Syntax error at ;
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v", 264: 
+
+*Error* `include file "usbf_defs.v" cannot be read
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 38: 
+
+*Error* macro `PID_MDATA not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 73: 
+
+*Error* macro `PID_DATA2 not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 73: 
+
+*Error* macro `PID_DATA0 not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 73: 
+
+*Error* macro `PID_DATA1 not defined
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 73: 
+
+*Error* Syntax error at begin
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 74: 
+
+*Error* Syntax error at default
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 79: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 81: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 82: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 83: 
+
+*Error* Syntax error at endcase
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 84: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 85: 
+
+*Error* Syntax error at else
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 86: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 88: 
+
+*Error* Syntax error at <=
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 89: 
+
+*Error* Syntax error at end
+"/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v", 90: 
+
+*Warning* symbol DPOUT duplicated
+"/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v", 102: 
+
+*Warning* symbol usb_dp duplicated
+"/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v", 104: 
+
+*Warning* symbol usb_dn duplicated
+"/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v", 105: 
+
+*Error* expected filename after `include
+"/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v", 182: 
+
+*Error* macro `TEST_CASE not defined
+"/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v", 182: 
+Highest level modules:
+ahb_usb_tb
+
+Total	872 error(s),   18 warning(s)

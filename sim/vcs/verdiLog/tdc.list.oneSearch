@@ -1,0 +1,16 @@
+/home/guyukun/Desktop/guyukun/USB/tb/vmodel/trans_buffer.v
+/home/guyukun/Desktop/guyukun/USB/rtl/usb_ahb_slv.v
+/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v
+/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_top.v
+/home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_transceiver.v
+/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v
+/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v
+/home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_fs_phy.v
+/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_crc16.v
+/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_ep.v
+/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v
+/home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_fs_utmi_phy.v
+/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_fifo.v
+/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v
+/home/guyukun/Desktop/guyukun/USB/tb/vmodel/ahb_mst.v
+/home/guyukun/Desktop/guyukun/USB/tb/vmodel/usb_host_model.v

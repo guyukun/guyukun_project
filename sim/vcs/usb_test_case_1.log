@@ -1,0 +1,115 @@
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '6.11.0-24-generic' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Sun Apr 27 20:48:35 2025
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_top.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_ahb_slv.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v'
+Parsing included file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_defs.v'.
+Back to file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v'.
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v'
+Parsing included file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_defs.v'.
+Back to file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v'.
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_fifo.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_ep.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v'
+Parsing included file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_defs.v'.
+Back to file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v'.
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v'
+Parsing included file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_defs.v'.
+Back to file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v'.
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_crc16.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_fs_phy.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_fs_utmi_phy.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_transceiver.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/tb/vmodel/ahb_mst.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/tb/vmodel/trans_buffer.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/tb/vmodel/usb_host_model.v'
+Parsing design file '/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v'
+
+Warning-[IPDW] Identifier previously declared
+/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v, 102
+  Second declaration for identifier 'DPOUT' ignored
+  Identifier 'DPOUT' previously declared as wire. 
+  [/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v, 101]
+
+
+Warning-[IPDW] Identifier previously declared
+/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v, 104
+  Second declaration for identifier 'usb_dp' ignored
+  Identifier 'usb_dp' previously declared as wire. 
+  [/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v, 36]
+
+
+Warning-[IPDW] Identifier previously declared
+/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v, 105
+  Second declaration for identifier 'usb_dn' ignored
+  Identifier 'usb_dn' previously declared as wire. 
+  [/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v, 37]
+
+Parsing included file '/home/guyukun/Desktop/guyukun/USB/tc/usb_test_case_1.v'.
+
+Warning-[TMBIN] Too many bits in Based Number
+/home/guyukun/Desktop/guyukun/USB/tc/usb_test_case_1.v, 10
+  The specified width is '32' bits, actually got '36' bits.
+  The offending number is : '0000_0000f'.
+
+
+Warning-[TMBIN] Too many bits in Based Number
+/home/guyukun/Desktop/guyukun/USB/tc/usb_test_case_1.v, 11
+  The specified width is '32' bits, actually got '36' bits.
+  The offending number is : '0000_0000f'.
+
+Back to file '/home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v'.
+Top Level Modules:
+       ahb_usb_tb
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+5 modules and 0 UDP read.
+recompiling module usbf_device_core
+recompiling module usbf_sie_ep
+recompiling module usbf_crc16
+recompiling module usb_host_model
+recompiling module ahb_usb_tb
+All of 5 modules done
+make[1]: Entering directory '/home/guyukun/Desktop/guyukun/USB/sim/vcs/csrc'
+make[1]: Leaving directory '/home/guyukun/Desktop/guyukun/USB/sim/vcs/csrc'
+make[1]: Entering directory '/home/guyukun/Desktop/guyukun/USB/sim/vcs/csrc'
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -no-pie  -Wl,--no-as-needed    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -L/usr/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -Wl,--no-as-needed -rdynamic  -Wl,-rpath=/home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib -L/home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib   objs/amcQw_d.o  _11925_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          -lzerosoft_rt_stubs -lvirsim -lerrorinf -lsnpsmalloc -lvfs /home/guyukun/Desktop/guyukun/software/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/pli.a    -lvcsnew -lsimprofile -luclinative /home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_tls.o   -Wl,-whole-archive -lvcsucli -Wl,-no-whole-archive       _vcs_pli_stub_.o   /home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o /home/guyukun/Desktop/guyukun/software/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl -lm  -lc -lpthread -ldl 
+/usr/bin/ld: warning: rmar_nd.o: missing .note.GNU-stack section implies executable stack
+/usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+../simv up to date
+make[1]: Leaving directory '/home/guyukun/Desktop/guyukun/USB/sim/vcs/csrc'
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Apr 27 20:48 2025
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'TEST_CASE.fsdb'
+*Verdi* : Begin traversing the scope (ahb_usb_tb), layer (0).
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+         0   Resetting function controller
+END!
+$finish called from file "/home/guyukun/Desktop/guyukun/USB/tc/usb_test_case_1.v", line 51.
+$finish at simulation time 0.240ms
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 239930000 ps
+CPU Time:      0.670 seconds;       Data structure size:   0.1Mb
+Sun Apr 27 20:48:39 2025
+CPU time: 1.692 seconds to compile + .650 seconds to elab + .443 seconds to link + .714 seconds in simulation

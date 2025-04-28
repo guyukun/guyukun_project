@@ -1,0 +1,161 @@
+13       
+0 usbf_device_defs.v
+0 /home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/etc/systemverilog/usbf_device_defs.v
+0 /home/guyukun/Desktop/guyukun/USB/rtl/usbf_device_defs.v
+0 usbf_defs.v
+0 /home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/etc/systemverilog/usbf_defs.v
+0 /home/guyukun/Desktop/guyukun/USB/rtl/usbf_defs.v
+0 usb_test_case_1.v
+0 /home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/etc/systemverilog/usb_test_case_1.v
+0 /home/guyukun/Desktop/guyukun/USB/rtl/usb_test_case_1.v
+0 /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usb_test_case_1.v
+0 /home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_test_case_1.v
+0 /home/guyukun/Desktop/guyukun/USB/tb/bench/usb_test_case_1.v
+0 /home/guyukun/Desktop/guyukun/USB/tb/vmodel/usb_test_case_1.v
+45
++DUMP
++define+TEST_CASE=""usb_test_case_1.v""
++incdir+/home/guyukun/Desktop/guyukun/USB/rtl
++incdir+/home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core
++incdir+/home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy
++incdir+/home/guyukun/Desktop/guyukun/USB/tb/bench
++incdir+/home/guyukun/Desktop/guyukun/USB/tb/vmodel
++incdir+/home/guyukun/Desktop/guyukun/USB/tc
++itf+/home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcsdp_lite.tab
++v2k
++vc
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags=-L/usr/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -Wl,--no-as-needed -rdynamic
+-Mobjects= /home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so /home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so /home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so /home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvfs.so /home/guyukun/Desktop/guyukun/software/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/pli.a
+-Mout=simv
+-Msaverestoreobj=/home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/home/guyukun/Desktop/guyukun/software/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl -lm
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/include
+-P
+-P
+-Xvcs_run_simv=1
+-debug_acc+all
+-debug_access
+-debug_region+cell+encrypt
+-f /home/guyukun/Desktop/guyukun/USB/sim/filelist_top_sim.v
+-fsdb
+-full64
+-gen_obj
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+/home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/bin/vcs1
+/home/guyukun/Desktop/guyukun/software/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+/home/guyukun/Desktop/guyukun/software/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/novas.tab
+67
+testName=usb_test_case_1
+sysc_uni_pwd=/home/guyukun/Desktop/guyukun/USB/sim/vcs
+XMODIFIERS=@im=ibus
+XDG_SESSION_TYPE=x11
+XDG_SESSION_DESKTOP=ubuntu-xorg
+XDG_SESSION_CLASS=user
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu-xorg:/etc/xdg
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+WINDOWPATH=2
+VTE_VERSION=7600
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/guyukun/Desktop/guyukun/software/verdi2018/verdi/Verdi_O-2018.09-SP2
+VERDI_DIR=/home/guyukun/Desktop/guyukun/software/verdi2018/verdi/Verdi_O-2018.09-SP2
+VCS_TARGET_ARCH=amd64
+VCS_MODE_FLAG=64
+VCS_HOME=/home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+USERNAME=guyukun
+UNAME=/bin/uname
+TOOL_HOME=/home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64
+SYSTEMD_EXEC_PID=2701
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SNPS_VCS_INTERNAL_UBUNTU_PRE_LDFLAGS= -no-pie  -Wl,--no-as-needed 
+SNPS_VCS_INTERNAL_LINKER_NEEDS_NO_AS_NEEDED=1
+SESSION_MANAGER=local/guyukun-VMware-Virtual-Platform:@/tmp/.ICE-unix/2661,unix/guyukun-VMware-Virtual-Platform:/tmp/.ICE-unix/2661
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=ibus
+QT_ACCESSIBILITY=1
+OVA_UUM=0
+NPI_PLATFORM=LINUX64_GNU_472
+NOVAS_INST_DIR=/home/guyukun/Desktop/guyukun/software/verdi2018/verdi/Verdi_O-2018.09-SP2
+NOVAS_HOME=/home/guyukun/Desktop/guyukun/software/verdi2018/verdi/Verdi_O-2018.09-SP2
+NEMU_HOME=/home/guyukun/Desktop/guyukun/ics2024/nemu
+MFLAGS=
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure
+MAKE_TERMOUT=/dev/pts/0
+MAKE_TERMERR=/dev/pts/0
+MAKEOVERRIDES=${-*-command-variables-*-}
+MAKELEVEL=1
+MAKEFLAGS= -- testName=usb_test_case_1
+LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_ALL=C
+GTK_MODULES=gail:atk-bridge
+GSM_SKIP_SSH_AGENT_WORKAROUND=true
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+GNOME_TERMINAL_SERVICE=:1.118
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/0469a6ad_562a_46a7_a728_82bb6689aa6a
+GNOME_SHELL_SESSION_MODE=ubuntu
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDMSESSION=ubuntu-xorg
+DVE_HOME=/home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/gui/dve
+DESKTOP_SESSION=ubuntu-xorg
+DEBUGINFOD_URLS=https://debuginfod.ubuntu.com 
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+CPATH=/usr/include/x86_64-linux-gnu
+COLORTERM=truecolor
+AM_HOME=/home/guyukun/Desktop/guyukun/ics2024/abstract-machine
+0
+23
+1745734601 /home/guyukun/Desktop/guyukun/USB/tc/usb_test_case_1.v
+1745734600 /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_defs.v
+1745734600 /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_defs.v
+1745736949 /home/guyukun/Desktop/guyukun/USB/tb/bench/ahb_usb_tb.v
+1745734601 /home/guyukun/Desktop/guyukun/USB/tb/vmodel/usb_host_model.v
+1745734601 /home/guyukun/Desktop/guyukun/USB/tb/vmodel/trans_buffer.v
+1745734601 /home/guyukun/Desktop/guyukun/USB/tb/vmodel/ahb_mst.v
+1745734600 /home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_transceiver.v
+1745734600 /home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_fs_utmi_phy.v
+1745734600 /home/guyukun/Desktop/guyukun/USB/rtl/usb_fs_utmi_phy/usb_fs_phy.v
+1745734600 /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_crc16.v
+1745734600 /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_tx.v
+1745734600 /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_rx.v
+1745734600 /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_sie_ep.v
+1745734600 /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_fifo.v
+1745734600 /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device_core.v
+1745734600 /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_core/usbf_device.v
+1745734600 /home/guyukun/Desktop/guyukun/USB/rtl/usb_ahb_slv.v
+1745734600 /home/guyukun/Desktop/guyukun/USB/rtl/usb_device_top.v
+1745736855 /home/guyukun/Desktop/guyukun/USB/sim/filelist_top_sim.v
+1550753332 /home/guyukun/Desktop/guyukun/software/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+1550753332 /home/guyukun/Desktop/guyukun/software/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/novas.tab
+1551421246 /home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcsdp_lite.tab
+5
+1551422344 /home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so
+1551421792 /home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so
+1551421768 /home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so
+1551421789 /home/guyukun/Desktop/guyukun/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvfs.so
+1550752033 /home/guyukun/Desktop/guyukun/software/verdi2018/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/linux64/pli.a
+1745758119 simv.daidir
+-1 partitionlib

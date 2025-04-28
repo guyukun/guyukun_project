@@ -1,0 +1,44 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "ahb_usb_tb": [
+        "ahb_usb_tb",
+        "B8UhR",
+        "module",
+        6
+    ],
+    "usbf_sie_ep": [
+        "usbf_sie_ep",
+        "nWDJK",
+        "module",
+        3
+    ],
+    "usbf_device_core": [
+        "usbf_device_core",
+        "v1Rb0",
+        "module",
+        2
+    ],
+    "usbf_crc16": [
+        "usbf_crc16",
+        "DFKAa",
+        "module",
+        4
+    ],
+    "usb_host_model": [
+        "usb_host_model",
+        "RQWF7",
+        "module",
+        5
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        7
+    ]
+}
